@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bushovski Studio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Comfortaa">
+</head>
+
+<body>
+    <header class="section header" onclick="$('.post-wrapper .post:first-child .stem-overlay .icon').click();">
+        <div class="section-inner">
+            <div class="master-head">
+                <p class="scroll-button" onclick="$('.post-wrapper .post:first-child .stem-overlay .icon').click();">Bushovski Studio</p>
+            </div>
+        </div> <!-- section-inner -->
+    </header>
+    <div class="stem-wrapper">
+        <div class="stem"></div>
+        <div class="stem-background"></div>
+    </div>
+    <div class="section main-content">
+        <div class="section-inner">
+            <div class="stem-padding"></div>
+            <div class="post-wrapper">
+                <article class="post bitbucket-icon">
+                    <div class="stem-overlay">
+                        <div class="icon"></div>
+                        <div class="stem-mask"></div>
+                    </div>
+                    <div class="post-content">
+                        <p class="meta">Шаг первый</p>
+                        <h2 class="post-title">Обсуждение проекта</h2>
+                        <div class="entry-content">
+                            <p> Обсуждаем все детали сайта. Составляем ТЗ.
+                                <br>
+                                <br>
+                                <button data-modal="modal-1" class="open-modal" type="button" style="color:#39ACBD;font-size: 19px;">Узнать больше</button>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="post m-icon" data-stem-color="green">
+                    <div class="stem-overlay">
+                        <div class="icon"></div>
+                        <div class="stem-mask"></div>
+                    </div>
+                    <div class="post-content">
+                        <p class="meta">Шаг второй</p>
+                        <h2 class="post-title">Дизайн сайта</h2>
+                        <div class="entry-content">
+                            <p>Создаём дизайн-прототип, утверждаем скелет сайта, делаем дизайн, подбираем шрифты и цветовую гамму сайта.
+                                <br>
+                                <br>
+                                <button data-modal="modal-2" class="open-modal" type="button" style="color:#39ACBD;font-size: 19px;">Узнать больше</button>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="post m-icon" data-stem-color="green">
+                    <div class="stem-overlay">
+                        <div class="icon"></div>
+                        <div class="stem-mask"></div>
+                    </div>
+                    <div class="post-content">
+                        <p class="meta">Шаг третий</p>
+                        <h2 class="post-title">Утвеждение дизайна</h2>
+                        <div class="entry-content">
+                            <p>Утверждаем дизайн сайта для вёрстки и преходим дальше.
+                                <br>
+                                <br>
+                                <button data-modal="modal-3" class="open-modal" type="button" style="color:#39ACBD;font-size: 19px;">Узнать больше</button>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="post music-icon" data-stem-color="yellow">
+                    <div class="stem-overlay">
+                        <div class="icon"></div>
+                        <div class="stem-mask"></div>
+                    </div>
+                    <div class="post-content">
+                        <p class="meta">Шаг четвёртый</p>
+                        <h2 class="post-title">Вёрстка</h2>
+                        <div class="entry-content">
+                            <p> Верстаем готовый макет сайта и смотрим что получилось.
+                                <br> <br> <button data-modal="modal-4" class="open-modal" type="button" style="color:#39ACBD;font-size: 19px;">Узнать больше</button>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="post bitbucket-icon">
+                    <div class="stem-overlay">
+                        <div class="icon"></div>
+                        <div class="stem-mask"></div>
+                    </div>
+                    <div class="post-content">
+                        <p class="meta">Шаг пятый</p>
+                        <h2 class="post-title">Тест и доработка</h2>
+                        <div class="entry-content">
+                            <p> Тестируем полностью весь сайт, дорабатываем мелочи и исправляем ошибки.
+                                <button data-modal="modal-5" class="open-modal" type="button">Узнать больше</button>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="post bitbucket-icon">
+                    <div class="stem-overlay">
+                        <div class="icon"></div>
+                        <div class="stem-mask"></div>
+                    </div>
+                    <div class="post-content">
+                        <p class="meta">Шаг шесто1й</p>
+                        <h2 class="post-title">Сдача проета клиенту</h2>
+                        <div class="entry-content">
+                            <p>Завершающий этап разработки. Созвон и сдача сайта. Тестирование с клиентом.
+                                <button data-modal="modal-6" class="open-modal" type="button">Узнать больше</button>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div> <!-- post-wrapper -->
+            <div class="single-stem-icon scroll-to-top trigger-scroll-to-top"></div>
+        </div> <!-- section-inner -->
+    </div> <!-- main-content -->
+    <footer class="footer section">
+        <div class="section-inner">
+            <div class="good-bye">
+                <p> Срок сдачи <br>2 апреля - OK! Но надо видеть это схематитески двигаясь по карте. Такие карты будут предостовляться нашим клиентам в будущем и это тоже часть нашего профессионализма. </p>
+            </div> <!-- section-inner -->
+        </div>
+    </footer>
+    <div class="modals">
+        <div id="modal-1" class="dlg-modal">
+            <button type="button" class="close" data-id="close-modal" data-close="">×</button>
+            <div data-id="progress-container" class="progress-container">
+                <div class="progress-bar" data-id="myBar"></div>
+            </div>
+            <div data-id="progress-div">
+                <p>Загрузка <span data-id="percent-progress"></span>%</p>
+                <progress data-id="progress" value="0" max="100"></progress>
+            </div>
+            <div data-id="content-modal" class="content-modal">
+                <h1 class="dev_page_title" dir="auto">Обсуждение проекта</h1>
+                <h3>Разработчик: Дмитрий</h3>
+                <h3>Шаг 1: Обсуждение проекта</h3>
+                <ul>
+                    <li><h3>1) Созвон с клиентом (2 часа);</h3></li>
+                    <li><h3>2) Составление ТЗ (входит в верхние 2 часа).</h3></li>
+                </ul>
+            </div>
+        </div>
+        <div id="modal-2" class="dlg-modal">
+            <button type="button" class="close" data-id="close-modal" data-close="">×</button>
+            <div data-id="progress-container" class="progress-container">
+                <div class="progress-bar" data-id="myBar"></div>
+            </div>
+            <div data-id="progress-div">
+                <p>Загрузка <span data-id="percent-progress"></span>%</p>
+                <progress data-id="progress" value="0" max="100"></progress>
+            </div>
+            <div data-id="content-modal" class="content-modal">
+                <h1 class="dev_page_title" dir="auto">Дизайн сайта</h1>
+                <h3>Разработчик: Дмитрий</h3>
+                <h3>Шаг 2: Дизайн сайта</h3>
+                <ul>
+                    <li><h3>1) Делаем скелет (займёт примерно 4 часа);</h3></li>
+                    <li><h3>2) Делаем дизайн, подбираем шрифты, картинки, эффекты, продумываем интрефейс для пользователя (займёт примерно 25 часов.).</h3></li>
+                </ul>
+            </div>
+        </div>
+        <div id="modal-3" class="dlg-modal">
+            <button type="button" class="close" data-id="close-modal" data-close="">×</button>
+            <div data-id="progress-container" class="progress-container">
+                <div class="progress-bar" data-id="myBar"></div>
+            </div>
+            <div data-id="progress-div">
+                <p>Загрузка <span data-id="percent-progress"></span>%</p>
+                <progress data-id="progress" value="0" max="100"></progress>
+            </div>
+            <div data-id="content-modal" class="content-modal">
+                <h1 class="dev_page_title" dir="auto">Утвеждение дизайна</h1>
+                <h3>Разработчик: Дмитрий</h3>
+                <h3>Шаг 3: Утвеждение дизайна</h3>
+                <ul>
+                    <li><h3>1) Присылаем готовый дизайн (5 мин);</h3></li>
+                    <li><h3>2) Обсуждаем дизайн (максимум 2 часа);</h3></li>
+                    <li><h3>3) Если есть правки - исправляем (максимум 5 часов).</h3></li>
+                </ul>
+            </div>
+        </div>
+        <div id="modal-4" class="dlg-modal">
+            <button type="button" class="close" data-id="close-modal" data-close="">×</button>
+            <div data-id="progress-container" class="progress-container">
+                <div class="progress-bar" data-id="myBar"></div>
+            </div>
+            <div data-id="progress-div">
+                <p>Загрузка <span data-id="percent-progress"></span>%</p>
+                <progress data-id="progress" value="0" max="100"></progress>
+            </div>
+            <div data-id="content-modal" class="content-modal">
+                <h1 class="dev_page_title" dir="auto">Вёрстка</h1>
+                <h3>Разработчик: Дмитрий</h3>
+                <h3>Шаг 4: Вёрстка</h3>
+                <ul>
+                    <li><h3>Смотрим на сложность макета (чёткого времени пока нет. Зависит от сложности макета) P.S. после дизайна тут будет точная информация. ;</h3></li>
+                </ul>
+            </div>
+        </div>
+        <div id="modal-5" class="dlg-modal">
+            <button type="button" class="close" data-id="close-modal" data-close="">×</button>
+            <div data-id="progress-container" class="progress-container">
+                <div class="progress-bar" data-id="myBar"></div>
+            </div>
+            <div data-id="progress-div">
+                <p>Загрузка <span data-id="percent-progress"></span>%</p>
+                <progress data-id="progress" value="0" max="100"></progress>
+            </div>
+            <div data-id="content-modal" class="content-modal">
+                <h1 class="dev_page_title" dir="auto">Тест и доработка</h1>
+                <h3>Разработчик: Дмитрий</h3>
+                <h3>Шаг 5: Тест и доработка</h3>
+                <ul>
+                    <li><h3>1) Тестирование сайта (максимум 2 часа);</h3></li>
+                    <li><h3>2) Исправление мелких ошибок (максимум 2 часа);</h3></li>
+                </ul>
+            </div>
+        </div>
+        <div id="modal-6" class="dlg-modal">
+            <button type="button" class="close" data-id="close-modal" data-close="">×</button>
+            <div data-id="progress-container" class="progress-container">
+                <div class="progress-bar" data-id="myBar"></div>
+            </div>
+            <div data-id="progress-div">
+                <p>Загрузка <span data-id="percent-progress"></span>%</p>
+                <progress data-id="progress" value="0" max="100"></progress>
+            </div>
+            <div data-id="content-modal" class="content-modal">
+                <h1 class="dev_page_title" dir="auto">Сдача проета клиенту</h1>
+                <h3>Разработчик: Дмитрий</h3>
+                <h3>Шаг 6: Сдача проета клиенту</h3>
+                <ul>
+                    <li><h3>1) Созвон с клиентом и тест (максимум 2 часа);</h3></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" data-close=""></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/modal.js"></script>
+</body>
+
+</html>
